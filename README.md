@@ -1,1 +1,1 @@
-Repositório com códigos do Desafio para a vaga de Desenvolvedor PHP Jr da sexlog.
+Repositório com códigos do desafio para a vaga de Desenvolvedor PHP Jr da sexlog.
