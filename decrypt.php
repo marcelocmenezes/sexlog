@@ -14,9 +14,7 @@ class Decript {
 
         for ($i =0; $i < strlen($email); $i++) {
             $sb =  substr($email, $i, 1);
-
-            // Se não for do tipo numério ou caracter especial.
-            if ( !is_numeric($sb) || !ctype_punct($sb))
+            if ( !is_numeric($sb) )
                 $sb = $this->retornaLetra($this->calculo($this->retornaNumero($sb)));
 
             $aux = $aux . $sb;
